@@ -1,0 +1,398 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    columns: black;
+}
+header {
+    display: flex ;
+    justify-content: space-between;
+    padding: 10px 50px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left:0%;
+    z-index:1;
+    width: 100%;
+    background-color:  rgb(225, 225, 225, 0.3);
+    align-items: center;
+}
+header:hover{
+    background-color: white;
+    color: black
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.logo {
+    flex:1;
+    font-size: 18px;
+
+}
+.menu {
+    
+    flex: 1.5;
+    display: flex;
+}
+.menu>li {
+    padding: 0 12px;
+    position: relative;
+}
+.menu>li:hover .Sub-menu{
+    visibility: visible;
+    top: 30px;
+
+}
+.other {
+    flex:1;
+    display: flex;
+}
+.Sub-menu {
+    position: absolute ;
+    background-color: white;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 0 10px 20px;
+    visibility: hidden;
+    top: 50px;
+    transition: 0.3s;
+}
+.menu li a{
+    font-weight: bold ;
+    display: block;
+    line-height: 20px;
+    font-size: 18px;
+    color: black;
+}
+.Sub-menu ul a{
+    padding-left: 20px !important;
+    font-size: 12px;
+
+}
+.Sub-menu li a{
+    font-weight: normal ;
+    padding: 4px;
+}
+.aspect-radio-169{
+    display: block;
+    position: relative;
+    padding-top: 56.25%;
+}
+.aspect-radio-169 img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+    
+}
+#banner{
+    position: relative;
+}
+.dot-container{
+    position: absolute;
+    bottom: 50px; 
+    width: 100%;
+    text-align: center;
+}
+.dot{
+    height: 16px;
+    width: 16px;
+    background: #ccc;
+    border-radius: 50%;
+    margin: 0 8px; 
+    display: inline-block;
+    cursor: pointer; 
+}
+.dot.active{
+    background:#333
+}
+#banner{
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.user-controls {
+    display: flex;
+    align-items: center;
+}
+
+.login-button {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+}
+
+.login-button:hover {
+    background-color: white;
+    color: black;
+}
+
+        #wp_product {
+            padding-top: 20px;
+            padding-bottom: 78px;
+            padding-left: 250px;
+            padding-right: 250px;
+        }
+
+        #wp_product h2 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 32px;
+            color:black;
+        }
+
+        #list_product {
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .product img {
+            display: block;
+            margin: 0% auto;
+            margin-top: 17px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+        }
+
+        .name_product {
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            margin-top: 21px;
+        }
+
+        #wp_product-arrival {
+            padding: 20px 134px 78px 134px;
+            text-align: center;
+        }
+        
+        #wp_product-arrival h2 {
+            font-size: 32px;
+            color: black;
+            margin-bottom: 20px;
+        }
+        
+        #list_product-arrival {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            list-style: none;
+            padding: 0;
+        }
+        
+        .new-product {
+            margin: 0 15px 30px;
+            padding: 10px;
+            text-align: left; 
+            max-width: 300px;
+        }
+        
+        .new-product img {
+            width: 250px;
+            height: 250px;
+        }
+        
+        .gallery img {
+            width: 50px;
+            height: 50px;
+            margin: 0px;
+        }
+        
+        .size-product {
+            margin-top: 0px;
+            padding-right: 5px;
+        }
+        
+        .size-product span {
+            margin: 0;
+            padding-right: 5px
+        }
+        
+        .name_product-arrival{
+            font-weight: bold;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        
+        .price{
+            font-weight: bold;
+            color: #ff5733;
+            font-size: 18px;
+        }
+        #wp_product-hot {
+            padding: 20px 134px 78px 134px;
+            text-align: center;
+        }
+        
+        #wp_product-hot h2 {
+            font-size: 32px;
+            color: black;
+            margin-bottom: 20px;
+        }
+        
+        #list_product-hot {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            list-style: none;
+            padding: 0;
+        }
+        
+        .hot-product {
+            margin: 0 15px 30px;
+            padding: 10px;
+            text-align: left; 
+            max-width: 300px;
+        }
+        
+        .hot-product img {
+            width: 250px;
+            height: 250px;
+        }
+        
+        .gallery img {
+            width: 50px;
+            height: 50px;
+            margin: 0px;
+        }
+        
+        .size-product {
+            margin-top: 0px;
+            padding-right: 5px;
+        }
+        
+        .size-product span {
+            margin: 0;
+            padding-right: 5px
+        }
+        
+        .name_product-hot{
+            font-weight: bold;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .contact-box {
+            max-width: 50%;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+            padding: 20px;
+            border: 2px solid #333;
+            text-align: center;
+        }
+        
+        .contact-box h2 {
+            font-size: 24px;
+            color: #333;
+            margin: 50px;
+        }
+        
+        .contact-box form {
+            text-align: left;
+        }
+        
+        .contact-box label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            margin-left: 70px;
+            
+        }
+        
+        .contact-box input[type="text"],
+        .contact-box input[type="email"],
+        .contact-box textarea {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            margin-left: 70px;
+            margin-right: 70px;
+           
+        }
+        
+        .contact-box input[type="submit"] {
+            background-color:black;
+            color: #fff;
+            padding: 10px 30px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 70px;
+            margin-top: 5px;
+        }
+        
+        .contact-box input[type="submit"]:hover {
+            background-color:white;
+            color: black;
+        }
+        footer {
+            background-color:black; 
+            color: #fff; 
+            padding: 30px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: left 
+        }
+        .contact, .follow {
+            flex: 1;    
+            padding-top: 70px; 
+        }
+        .contact h3, .follow h3  {
+            font-size: 30px;
+            margin-bottom: 10px; 
+        }
+        .contact p {
+            margin-bottom: 5px;
+        }
+        .follow a {
+            text-decoration: none;
+            color: #fff; 
+            margin-right: 10px; 
+        }
+        .map {
+            flex: 2;
+            padding: 10px; 
+        }
+        
+        .map iframe {
+            width: 100%;
+            height: 300px;
+        }
+
+        .follow a:hover {
+            text-decoration: underline white; 
+        }
+        .copyright {
+            text-align: center;
+            font-size: 14px; 
+            color: #777;
+            margin-bottom: 10px;
+            padding: 0px;
+        }
