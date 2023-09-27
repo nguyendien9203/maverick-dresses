@@ -1,5 +1,5 @@
 <?php
-    require_once ('header.php');
+    require_once ('./inc/header.php');
 ?>
     <section id="banner"> 
         <div class="aspect-radio-169">
@@ -329,5 +329,5 @@
     </div>
     
 <?php
-    require_once ('footer.php');
+    require_once ('./inc/footer.php');
 ?>

@@ -3,14 +3,15 @@
 
     // define database constant
 
-    define("DB_SERVER", "localhost");
-    define("DB_USERNAME", "root");
-    define("DB_PASSWORD", "");
-    define("DB_NAME","myTestDB");
+    define("DB_HOST", "localhost");
+    define("DB_USER", "root");
+    define("DB_PASS", "");
+    define("DB_NAME","maverick_dresses");
 
-    define("BASE_URL", "http://localhost/project/practice/eProject/Maverick_Dresses");
+    define("BASE_URL", "http://localhost/project/eProject/Maverick_Dresses");
 
-    // create connection
+    
+    $connect = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
-    //$connect = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+    
 ?>
