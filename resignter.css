@@ -1,0 +1,228 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    columns: black;
+}
+header {
+    display: flex ;
+    justify-content: space-between;
+    padding: 10px 50px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left:0%;
+    z-index:1;
+    width: 100%;
+    background-color:  rgb(225, 225, 225, 0.3);
+    align-items: center;
+}
+header:hover{
+    background-color: white;
+    color: black
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    flex:1;
+    font-size: 18px;
+
+}
+.menu {
+    
+    flex: 1.5;
+    display: flex;
+}
+.menu>li {
+    padding: 0 12px;
+    position: relative;
+}
+.menu>li:hover .Sub-menu{
+    visibility: visible;
+    top: 30px;
+
+}
+.other {
+    flex:1;
+    display: flex;
+}
+.Sub-menu {
+    position: absolute ;
+    background-color: white;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 0 10px 20px;
+    visibility: hidden;
+    top: 50px;
+    transition: 0.3s;
+}
+.menu li a{
+    font-weight: bold ;
+    display: block;
+    line-height: 20px;
+    font-size: 18px;
+    color: black;
+}
+.Sub-menu ul a{
+    padding-left: 20px !important;
+    font-size: 12px;
+
+}
+.Sub-menu li a{
+    font-weight: normal ;
+    padding: 4px;
+}
+.user-controls {
+    display: flex;
+    align-items: center;
+}
+
+.login-button {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+}
+
+.login-button:hover {
+    background-color: white;
+    color: black;
+}
+.resignterForm {
+    max-width: 1000px;
+    height: 800px;
+    margin: 100px auto; 
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.resignterForm h2 {
+
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.form-element {
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.form-element input[type="text"],
+.form-element input[type="email"],
+.form-element input[type="number"],
+.form-element input[type="password"] {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-element button[type="submit"] {
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-element button[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.map {
+    flex: 1; 
+    padding-right: 150px; 
+    width: 100%; /
+}
+
+.contact {
+    flex: 1; 
+    padding-left: 40px; 
+    text-align: left; 
+}
+
+
+.follow {
+    flex: 1; 
+    padding: 20px;
+    text-align: left; 
+}
+
+.contact h3, .follow h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact p, .follow a {
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.follow a {
+    margin-right: 10px;
+    display: inline-block;
+}
+.copyright {
+    text-align: center;
+    font-size: 14px; 
+    color: #777;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+
+
+
+
