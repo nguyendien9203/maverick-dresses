@@ -1,6 +1,6 @@
-<?php
-require_once("./components/config.php");
-?>
+
+<?php require_once("../config/config.php"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
