@@ -1,0 +1,447 @@
+.admin-child {
+    position: absolute;
+    top: 176px;
+    left: 316px;
+    background-color: #d9d9d9;
+    width: 1284px;
+    height: 68px;
+  }
+  .button-child,
+  .dashbored,
+  .group {
+    position: absolute;
+    width: 259px;
+    height: 36px;
+  }
+  .dashbored {
+    top: 0;
+    left: 0;
+    letter-spacing: -0.01em;
+    line-height: 36px;
+    display: inline-block;
+  }
+  .button-child,
+  .group {
+    top: 77px;
+    left: 78px;
+  }
+  .button-child {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-7xs);
+    background-color: var(--color-black);
+  }
+  .register {
+    position: absolute;
+    top: 27.5%;
+    left: 20%;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+  }
+  .button,
+  .button-item {
+    position: absolute;
+    top: 10px;
+    left: 1470px;
+    width: 130px;
+    height: 40px;
+  }
+  .button-item {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-7xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+  }
+  .log-in {
+    position: absolute;
+    top: 27.5%;
+    left: 33.08%;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+  }
+  .button1 {
+    position: absolute;
+    top: 10px;
+    left: 1328px;
+    width: 130px;
+    height: 40px;
+    color: var(--color-gray-100);
+  }
+  .maverick-dresses {
+    position: absolute;
+    height: 100%;
+    width: 71.84%;
+    top: 0;
+    left: 28.16%;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .union-icon,
+  .union-icon1 {
+    position: relative;
+    width: 64.56px;
+    height: 22.52px;
+    display: none;
+  }
+  .union-icon1 {
+    width: 0;
+    height: 0;
+  }
+  .sample-logo {
+    position: absolute;
+    top: 14px;
+    left: -80px;
+    width: 350px;
+    height: 32px;
+    overflow: hidden;
+    color: var(--color-black);
+    font-family: var(--font-comfortaa);
+  }
+  .nav-login-child {
+    position: absolute;
+    top: 59.5px;
+    left: -0.5px;
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 1681px;
+    height: 1px;
+  }
+  .nav-login {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 1680px;
+    height: 60px;
+    overflow: hidden;
+    text-align: center;
+    color: var(--color-white);
+  }
+  .log-in1 {
+    position: absolute;
+    top: 27.5%;
+    left: 18.46%;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+  }
+  .button2 {
+    position: absolute;
+    top: 191px;
+    left: 1444px;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    color: var(--color-gray-100);
+  }
+  .register1 {
+    position: absolute;
+    top: 27.5%;
+    left: 33.3%;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+  }
+  .button3 {
+    position: absolute;
+    top: 398px;
+    left: 1351px;
+    width: 84px;
+    height: 40px;
+    text-align: center;
+    color: var(--color-white);
+  }
+  .register2 {
+    position: absolute;
+    top: 27.5%;
+    left: 7.47%;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+  }
+  .button4 {
+    position: absolute;
+    top: 398px;
+    left: 1237px;
+    width: 91px;
+    height: 40px;
+    text-align: center;
+    color: var(--color-white);
+  }
+  .maverick-dresses1 {
+    position: absolute;
+    height: 100%;
+    width: 71.84%;
+    top: 0;
+    left: 28.16%;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .sample-logo1 {
+    position: absolute;
+    top: 14px;
+    left: -80px;
+    width: 350px;
+    height: 32px;
+    overflow: hidden;
+  }
+  .group1,
+  .nav-login1 {
+    position: absolute;
+    top: 10px;
+    left: 95px;
+    width: 259px;
+    height: 36px;
+    text-align: left;
+    font-family: var(--font-montserrat);
+  }
+  .nav-login1 {
+    top: 60px;
+    left: 0;
+    background-color: var(--color-white);
+    width: 1680px;
+    height: 60px;
+    overflow: hidden;
+    text-align: center;
+    font-family: var(--font-comfortaa);
+  }
+  .b,
+  .group2,
+  .group3,
+  .stt {
+    position: absolute;
+    top: 134px;
+    left: 78px;
+    width: 259px;
+    height: 36px;
+  }
+  .b,
+  .group3,
+  .stt {
+    top: 130px;
+    left: 316px;
+  }
+  .b,
+  .stt {
+    top: 105px;
+    left: 4px;
+    letter-spacing: -0.01em;
+    line-height: 36px;
+    display: inline-block;
+    width: 57px;
+  }
+  .b {
+    top: 203px;
+    left: 16px;
+    width: 34px;
+  }
+  .slide-1,
+  .tn-slider {
+    position: absolute;
+    left: 107px;
+  }
+  .slide-1 {
+    top: 203px;
+    letter-spacing: -0.01em;
+    line-height: 36px;
+    display: inline-block;
+    width: 57px;
+    height: 36px;
+  }
+  .tn-slider {
+    top: 103px;
+    width: 82px;
+  }
+  .slider-image,
+  .stt1,
+  .tn-slider {
+    letter-spacing: -0.01em;
+    line-height: 36px;
+    display: inline-block;
+    height: 36px;
+  }
+  .slider-image {
+    position: absolute;
+    top: 100px;
+    left: 296px;
+    width: 99px;
+  }
+  .stt1 {
+    top: 99px;
+    left: 630px;
+    width: 57px;
+  }
+  .action,
+  .group4,
+  .stt1 {
+    position: absolute;
+  }
+  .action {
+    top: 98px;
+    left: 957px;
+    letter-spacing: -0.01em;
+    line-height: 36px;
+    display: inline-block;
+    width: 57px;
+    height: 36px;
+  }
+  .group4 {
+    top: 192px;
+    left: 354px;
+    width: 1014px;
+    height: 239px;
+  }
+  .admin-item,
+  .group5,
+  .group6,
+  .group7,
+  .group8 {
+    position: absolute;
+    top: 193px;
+    left: 78px;
+    width: 259px;
+    height: 36px;
+  }
+  .admin-item,
+  .group6,
+  .group7,
+  .group8 {
+    top: 244px;
+  }
+  .admin-item,
+  .group7,
+  .group8 {
+    top: 292px;
+  }
+  .admin-item,
+  .group8 {
+    top: 343px;
+  }
+  .admin-item {
+    top: 120px;
+    left: 291.37px;
+    width: 1px;
+    height: 828px;
+  }
+  .admin-child1,
+  .admin-child2,
+  .admin-child3,
+  .admin-inner,
+  .line-div {
+    position: absolute;
+    top: 184.5px;
+    left: -0.5px;
+    border-top: 1px solid var(--color-gray-200);
+    box-sizing: border-box;
+    width: 293px;
+    height: 1px;
+  }
+  .admin-child1,
+  .admin-child2,
+  .admin-child3,
+  .line-div {
+    top: 235.5px;
+  }
+  .admin-child1,
+  .admin-child2,
+  .admin-child3 {
+    top: 285.5px;
+  }
+  .admin-child2,
+  .admin-child3 {
+    top: 336.5px;
+  }
+  .admin-child3 {
+    top: 387.5px;
+  }
+  .admin-child4,
+  .admin-child5,
+  .admin-child6,
+  .admin-child7,
+  .admin-child8 {
+    position: absolute;
+    top: 252.5px;
+    left: 425.5px;
+    border-right: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 1px;
+    height: 724px;
+  }
+  .admin-child5,
+  .admin-child6,
+  .admin-child7,
+  .admin-child8 {
+    left: 565.5px;
+  }
+  .admin-child6,
+  .admin-child7,
+  .admin-child8 {
+    left: 839.5px;
+  }
+  .admin-child7,
+  .admin-child8 {
+    left: 1156.5px;
+  }
+  .admin-child8 {
+    left: 1495.5px;
+  }
+  .rectangle-icon {
+    position: absolute;
+    height: 12.66%;
+    width: 10.12%;
+    top: 37.55%;
+    right: 53.27%;
+    bottom: 49.79%;
+    left: 36.61%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .admin {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 948px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--color-black);
+    font-family: var(--font-montserrat);
+  }
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-montserrat: Montserrat;
+    --font-comfortaa: Comfortaa;
+  
+    /* font sizes */
+    --font-size-mini: 15px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray-100: #1e1e1e;
+    --color-gray-200: rgba(0, 0, 0, 0.3);
+    --actionable-item: #18a0fb;
+  
+    /* Border radiuses */
+    --br-7xs: 6px;
+  }
+  
