@@ -54,7 +54,11 @@ require_once __DIR__.'/../config/config.php'; ?>
             <li><a href="">Liên Hệ</a></li>
         </div>
         <div class="user-controls">
-            <button class="login-button">Đăng nhập</button>
-            <button class="login-button">Đăng kí</button>
+            <div class="login-button">
+                <a href="login.php">Đăng nhập</a>
+            </div>
+            <div class="login-button">
+                <a href="register.php">Đăng ký</a>
+            </div>
         </div>
     </header>
