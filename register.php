@@ -26,31 +26,32 @@
         }
     }
 ?>
-<div form>
+<div class="resignterForm">
     <form action="">
-        <div class="popup" id="signin-popup"> 
-            <div class="close-btn" id="close-button-signin">&times;</div>
-            <div class="form">
-                <h2>ĐĂNG KÍ</h2>
-                <div class="form-element">
-                    <input type="text" id="username-signin" placeholder="Họ và tên" name="full_name">
-                </div>
-                <div class="form-element">
-                    <input type="text" id="email-signin" placeholder="Email" name="email">
-                </div>
-                <div class="form-element">
-                    <input type="tex" id="phone-signin" placeholder="Số điện thoại" name="phone_number">
-                </div>
-                <div class="form-element">
-                    <input type="password" id="password-signin" placeholder="Mật khẩu" name="password">
-                </div>
-                <div class="form-element">
-                    <input type="password" id="repeat-password-signin" placeholder="Nhập lại mật khẩu">
-                </div>
-                <div class="form-element">
-                    <button id="signin-button" type="submit" name="btnRegister">Đăng ký</button>
-                </div>
-            </div>
+        <h2>ĐĂNG KÝ</h2>
+        <div class="form-element">
+            <input type="text"  placeholder="Họ và tên">
+        </div>
+        <div class="form-element">
+            <input type="text"  placeholder="Email">
+        </div>
+        <div class="form-element">
+            <input type="text"  placeholder="Số Điện Thoại">
+        </div>
+        <div class="form-element">
+            <input type="text"  placeholder="Địa chỉ">
+        </div>
+        <div class="form-element">
+            <input type="password" placeholder="Mật khẩu">
+        </div>
+        <div class="form-element">
+            <input type="password" placeholder="Nhập lại mật khẩu">
+        </div>
+        <div class="form-element">
+            <button type="submit">Đăng ký</button>
+        </div>
+        <div class="link-element">
+            <a href="">Bạn đã có tài khoản?</a>
         </div>
     </form>
 </div>

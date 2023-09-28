@@ -16,12 +16,12 @@ require_once __DIR__.'/../config/config.php'; ?>
 <body>
     <header>
         <div class="logo">
-            <b>Marverick</b>
+            <a href="index.php"><span>Marverick</span> Dresses</a>
             
         </div>
         <div class="menu">
-            <li><a href="">Trang chủ</a></li>
-            <li><a href="">Sản Phẩm</a> 
+            <li><a href="index.php">Trang chủ</a></li>
+            <li><a href="products.php">Sản Phẩm</a> 
                 <ul class="Sub-menu">
                     <li><a href="">Áo</a>
                         <ul>
@@ -50,14 +50,14 @@ require_once __DIR__.'/../config/config.php'; ?>
                     </li>
                 </ul>                  
             </li>
-            <li><a href="">Về Chúng Tôi</a></li>
-            <li><a href="">Liên Hệ</a></li>
+            <li><a href="about.php">Về Chúng Tôi</a></li>
+            <li><a href="#contact-box">Liên Hệ</a></li>
         </div>
         <div class="user-controls">
             <div class="login-button">
                 <a href="login.php">Đăng nhập</a>
             </div>
-            <div class="login-button">
+            <div class="register-button">
                 <a href="register.php">Đăng ký</a>
             </div>
         </div>

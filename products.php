@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php require_once("./inc/header.php"); ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./sass/main.css">
-</head>
 
-<body>
     <div class="product__section">
         <h1 class="Product-title">Sản Phẩm </h1>
         <div class="product__wrap">
@@ -147,6 +139,5 @@
             </div>
         </div>
     </div>
-</body>
 
-</html>
+<?php require_once("./inc/footer.php"); ?>
