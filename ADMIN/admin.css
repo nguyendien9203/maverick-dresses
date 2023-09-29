@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+    align-items: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .logo {
+    flex: 1;
+    font-size: 18px;
+  }
+  
+  .user-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-button {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+  }
+  
+  .login-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .menu {
+    padding: 10px 50px;
+    display: flex;
+    height: 75px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+    align-items: center;
+    margin-top: 65px;
+  }
+  
+  .dashboard a {
+    flex: 2;
+    font-size: 18px;
+    color: black;
+    padding-top: 50px;
+    font-weight: bold;
+  }
+  
+  
+  .slide-bar-menu {
+    width: 300px;
+    height: 100vh;
+    background-color: #f2f2f2;
+    padding: 0px;
+    padding-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-list li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    
+  }
+  
+  .menu-list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    
+  }
+  
+  .menu-list li a:hover {
+    color:red;
+  }
+  
+  
+  .content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .slide-bar-menu {
+    width: 300px;
+    height: 100vh;
+    background-color: #f2f2f2;
+    padding: 0px;
+    padding-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+  }
+  
+  .content-table {
+    flex: 1;
+    padding: 20px;
+  }
+  .notice{
+    font-weight: bold ;
+    font-size:18px;
+  }
+  .name-action {
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .add {
+    display: inline-block;
+    width: 170  px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .add:hover {
+        background-color: white;
+      color: black;
+    }  
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  
+  th, td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  td {
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  
+  .action-button {
+    display: flex;
+    align-items: center; 
+  }
+  .action {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+  }
+  .action:hover{
+    background-color: white;
+    color: black;
+  }
+  .menu-list li.active {
+    background-color: #ddd;
+  }
+  
