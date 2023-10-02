@@ -144,6 +144,22 @@ a{
     align-items: center;
 }
 
+.user-logo a i{
+    display: inline-block;
+    padding: 7px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+}
+
+.login-button a:hover {
+    color: var(--primary-color);
+}
+
 .login-button a{
     display: inline-block;
     padding: 7px;
@@ -615,3 +631,4 @@ footer {
     color: var(--primary-color);
     font-size: 15px;
 }
+
