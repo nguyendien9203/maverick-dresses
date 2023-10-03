@@ -1,143 +1,194 @@
 <?php require_once("./inc/header.php"); ?>
 
-
-    <div class="product__section">
-        <h1 class="Product-title">Sản Phẩm </h1>
-        <div class="product__wrap">
-            <div class="category__wrap">
-                <div class="category">
-                    <div class="category__title">DANH MỤC</div>
-                    <div class="category__list">
-                        <button>Áo</button>
-                        <div class="category__hide">
-                            <li class="category__item"><a href="#" class="category__link">Tất cả áo</a></li>
-                            <li class="category__item"><a href="#" class="category__link">Aó sơ mi</a></li>
-                            <li class="category__item"><a href="#" class="category__link">Aó thun</a></li>
-                        </div>
+<section class="category">
+        <div class="container">
+            <div class="row">
+                    <div class="category-left">
+                    <ul> 
+                        <li class="category-left-li menu-product"> <a href="#">Danh Muc</a></li>
+                        <li class="category-left-li  " > <a href="">Áo</a>
+                            <ul>
+                                <li><a href="">Tất cả áo</a></li>
+                                <li><a href="">Áo sơ mi</a></li>
+                                <li><a href="">Áo thun</a></li>
+                            </ul>
+                        </li>
+                        <li class="category-left-li"> <a href="#">Chân Váy</a></li>
+                        <li class="category-left-li"> <a href="#">Logo</a></li>
+                        <li class="category-left-li"> <a href="#">Váy</a></li>
+                        <li class="category-left-li " > <a href="#">Quần</a>
+                            <ul>
+                                <li><a href="">Tất cả quần</a></li>
+                                <li><a href="">Quần short</a></li>
+                                <li><a href="">Quần thể thao</a></li>
+                            </ul>
+                        </li>
+                        <li class="category-left-li"> <a href="#">Phụ Kiện</a>
+                            <ul>
+                                <li><a href="">Tất cả phụ kiện</a></li>
+                                <li><a href="">Thắt lưng</a></li>
+                                <li><a href="">Cà vạt</a></li>
+                                <li><a href="">tất</a></li>
+                            </ul>
+                        </li>
+                    </ul> 
                     </div>
-
-                    <li class="category__item"><a href="#" class="category__link">Váy</a></li>
-
-                    <li class="category__item"><a href="#" class="category__link">LOGO</a></li>
-
-                    <li class="category__item"><a href="#" class="category__link">FROCKS</a></li>
-
-                    <div class="category__list">
-                        <button>Quần</button>
-                        <div class="category__hide">
-                            <li class="category__item"><a href="#" class="category__link">Tất cả quàn</a></li>
-                            <li class="category__item"><a href="#" class="category__link">quần short</a></li>
-                            <li class="category__item"><a href="#" class="category__link">quần thể thao</a></li>
-                        </div>
-                    </div>
-                    <div class="category__list">
-                        <button>Phụ kiện</button>
-                        <div class="category__hide">
-                            <li class="category__item"><a href="#" class="category__link">Tất cả phụ kiện</a></li>
-                            <li class="category__item"><a href="#" class="category__link">thắt lừng</a></li>
-                            <li class="category__item"><a href="#" class="category__link">Cà vạt</a></li>
-                            <li class="category__item"><a href="#" class="category__link">tất</a></li>
-                        </div>
-                    </div>
+            </div>
+            <div class="category-right row ">
+                <div class="category-right-top-item ">
+                    <p>Tất cả sản phẩm</p>
+                </div>
+                <div class="category-right-top-item">
+                  <button><span>Bộ lọc</span><i class="fas fa-sort-down"></i></button>
+                </div>
+                <div class="category-right-top-item">
+                    <select name="" id="">
+                        <option value="">Sắp xếp</option>
+                        <option value="">Giá cao đến thấp</option>
+                        <option value="">Giá thấp đến cao</option>
+                    </select>
                 </div>
             </div>
-
-            <div class="item__wrap">
-                <div class="item__section-1">
-                    <div class="item">
-                        <img src="#" alt="item" class="item-picture">
-                        <div class="item-size-box">
-                            <div class="item-title">M</div>
-                            <div class="item-title">L</div>
-                            <div class="item-title">XL</div>
-                            <div class="item-title">XXL</div>
+            <div id="category-content">
+                <ul id="list-content">  
+                    <li class="category-product">
+                        <img src="./img/goods_04_462261.avif" alt="">
+                        <div class="gallery">
+                            <span>
+                                <img src="./áo.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="./áo.jpg" alt="">
+                            </span><span>
+                                <img src="./áo.jpg" alt="">
+                            </span>
                         </div>
-                        <div class="item-name">Tên sản phẩm</div>
-                        <div class="item__price-box">
-                            <div class="item__price-1"><strike>200000VND</strike></div>
-                            <div class="item__price-2">100000VND</div>
+                        <div class="size-product">
+                            <span>S</span>
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
                         </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="#" alt="item" class="item-picture">
-                        <div class="item-size-box">
-                            <div class="item-title">M</div>
-                            <div class="item-title">L</div>
-                            <div class="item-title">XL</div>
-                            <div class="item-title">XXL</div>
+                        <div class="name-product-category">Áo</div>
+                        <div class="price">100.000 VND</div>
+                    </li>
+                    <li class="category-product">
+                        <img src="./áo.jpg" alt="">
+                        <div class="gallery">
+                            <span>
+                                <img src="./áo.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="./áo.jpg" alt="">
+                            </span><span>
+                                <img src="./áo.jpg" alt="">
+                            </span>
                         </div>
-                        <div class="item-name">Tên sản phẩm</div>
-                        <div class="item__price-box">
-                            <div class="item__price-1"><strike>200000VND</strike></div>
-                            <div class="item__price-2">100000VND</div>
+                        <div class="size-product">
+                            <span>S</span>
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
                         </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="#" alt="item" class="item-picture">
-                        <div class="item-size-box">
-                            <div class="item-title">M</div>
-                            <div class="item-title">L</div>
-                            <div class="item-title">XL</div>
-                            <div class="item-title">XXL</div>
+                        <div class="name-product-category">Áo</div>
+                        <div class="price">100.000 VNĐ</div>
+                    </li>
+                    <li class="category-product">
+                        <img src="./áo.jpg" alt="">
+                        <div class="gallery">
+                            <span>
+                                <img src="./áo.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="./áo.jpg" alt="">
+                            </span><span>
+                                <img src="./áo.jpg" alt="">
+                            </span>
                         </div>
-                        <div class="item-name">Tên sản phẩm</div>
-                        <div class="item__price-box">
-                            <div class="item__price-1"><strike>200000VND</strike></div>
-                            <div class="item__price-2">100000VND</div>
+                        <div class="size-product">
+                            <span>S</span>
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
                         </div>
-                    </div>
-                </div>
-
-                <div class="item__section-2">
-                    <div class="item">
-                        <img src="#" alt="item" class="item-picture">
-                        <div class="item-size-box">
-                            <div class="item-title">M</div>
-                            <div class="item-title">L</div>
-                            <div class="item-title">XL</div>
-                            <div class="item-title">XXL</div>
+                        <div class="name-product-category">Áo</div>
+                        <div class="price">100.000 VNĐ </div>
+                    </li>
+                    <li class="category-product">
+                        <img src="./áo.jpg" alt="">
+                        <div class="gallery">
+                            <span>
+                                <img src="./áo.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="./áo.jpg" alt="">
+                            </span><span>
+                                <img src="./áo.jpg" alt="">
+                            </span>
                         </div>
-                        <div class="item-name">Tên sản phẩm</div>
-                        <div class="item__price-box">
-                            <div class="item__price-1"><strike>200000VND</strike></div>
-                            <div class="item__price-2">100000VND</div>
+                        <div class="size-product">
+                            <span>S</span>
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
                         </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="#" alt="item" class="item-picture">
-                        <div class="item-size-box">
-                            <div class="item-title">M</div>
-                            <div class="item-title">L</div>
-                            <div class="item-title">XL</div>
-                            <div class="item-title">XXL</div>
+                        <div class="name-product-category">Áo</div>
+                        <div class="price">100.000 VNĐ</div>
+                    </li>
+                    <li class="category-product">
+                        <img src="./img/goods_04_462261.avif" alt="">
+                        <div class="gallery">
+                            <span>
+                                <img src="./áo.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="./áo.jpg" alt="">
+                            </span><span>
+                                <img src="./áo.jpg" alt="">
+                            </span>
                         </div>
-                        <div class="item-name">Tên sản phẩm</div>
-                        <div class="item__price-box">
-                            <div class="item__price-1"><strike>200000VND</strike></div>
-                            <div class="item__price-2">100000VND</div>
+                        <div class="size-product">
+                            <span>S</span>
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
                         </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="#" alt="item" class="item-picture">
-                        <div class="item-size-box">
-                            <div class="item-title">M</div>
-                            <div class="item-title">L</div>
-                            <div class="item-title">XL</div>
-                            <div class="item-title">XXL</div>
+                        <div class="name-product-category">Áo</div>
+                        <div class="price">100.000 VND</div>
+                    </li>
+                    <li class="category-product">
+                        <img src="./áo.jpg" alt="">
+                        <div class="gallery">
+                            <span>
+                                <img src="./áo.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="./áo.jpg" alt="">
+                            </span><span>
+                                <img src="./áo.jpg" alt="">
+                            </span>
                         </div>
-                        <div class="item-name">Tên sản phẩm</div>
-                        <div class="item__price-box">
-                            <div class="item__price-1"><strike>200000VND</strike></div>
-                            <div class="item__price-2">100000VND</div>
+                        <div class="size-product">
+                            <span>S</span>
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
                         </div>
-                    </div>
+                        <div class="name-product-category">Áo</div>
+                        <div class="price">100.000 VNĐ</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="category-right-bottom">
+                <div class="category-right-bottom-item"> 
+                    <p><span><a href=""><button>1</button></a></span>
+                        <span><a href=""><button>2</button></a></span>
+                        <span><a href=""><button>3</button></a></span>
+                    </p>
+                    
                 </div>
             </div>
         </div>
-    </div>
+     </section>
 
 <?php require_once("./inc/footer.php"); ?>

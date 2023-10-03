@@ -615,3 +615,137 @@ footer {
     color: var(--primary-color);
     font-size: 15px;
 }
+.category {
+    padding: 100px 0 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden; /
+}
+
+.category-right {
+    width: 80%;
+    float: left;
+    display: flex;
+}        
+.category-right-top-item:first-child{
+    font-size: 16px;
+    font-weight: bold;   
+    flex:2
+}
+.category-right-top-item{
+   flex: 1;
+    padding: 0 12px;
+}
+.category-right-top-item button{
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content:space-between;
+    background-color:#fff;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+.category-right-top-item select{
+width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content:space-between;
+    background-color:#fff;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+#category-content {
+    text-align: center;
+}  
+#list-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.category-product {
+    margin: 0 20px 30px;
+    padding: 10px;
+    text-align: left; 
+    max-width: 300px;
+}
+
+.category-product img {
+    width: 250px;
+    height: 250px;
+}
+
+.gallery img {
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+}
+
+.size-product {
+    margin-top: 0px;
+    padding-right: 5px;
+}
+
+.size-product span {
+    margin: 0;
+    padding-right: 5px
+}
+
+.name-product-category {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.price{
+    font-weight: bold;
+    color: #ff5733;
+    font-size: 18px;
+}
+.category-left {
+    padding: 10px 0 10px 20px;
+    width: 20%;
+    float: left; 
+    top: 50px; 
+}
+.category-left ul li{
+    padding: 16px;
+}
+.category-left ul li>a{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.category-left-li ul{
+    display: none;
+
+}
+.category-left-li.block ul{
+    display: block;
+}
+.category-left ul li ul li a{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.menu-product a{
+    font-size: 25px !important;
+}
+.menu-product {
+    margin-bottom: 20px;
+}
+.category-right-bottom{
+    display: flex !important;
+    margin: 30px;
+    justify-content: center;
+}
+.category-right-bottom-item button {
+    padding: 10px 15px;  
+    margin: 10px;
+    background-color:#777 ;
+    border: none;
+}
