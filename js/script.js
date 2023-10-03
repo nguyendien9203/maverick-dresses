@@ -29,3 +29,10 @@
     }
 
     setInterval(imgBanner, 3000);
+    const itemslidebar = document.querySelectorAll(".category-left-li");
+    itemslidebar.forEach(function(menu,index) {
+        menu.addEventListener("click",function() {
+            menu.classList.toggle("block")
+        });
+    })
+    
