@@ -156,9 +156,7 @@ a{
     margin-left: 20px;
 }
 
-.login-button a:hover {
-    color: var(--primary-color);
-}
+
 
 .login-button a{
     display: inline-block;
