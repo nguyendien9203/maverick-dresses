@@ -6,7 +6,7 @@
                     <div class="category-left">
                     <ul> 
                         <li class="category-left-li menu-product"> <a href="#">DANH MỤC</a></li>
-                        <li class="category-left-li"> <a href="">ÁO</a>
+                        <li class="category-left-li"> <a href="#">ÁO</a>
                             <ul>
                                 <li><a href="">Tất cả áo</a></li>
                                 <li><a href="">Áo sơ mi</a></li>
@@ -16,7 +16,7 @@
                         <li class="category-left-li"> <a href="#">VÁY</a></li>
                         <li class="category-left-li"> <a href="#">LOGO</a></li>
                         <li class="category-left-li"> <a href="#">FROCKS</a></li>
-                        <li class="category-left-li " > <a href="#">QUẦN</a>
+                        <li class="category-left-li"> <a href="#">QUẦN</a>
                             <ul>
                                 <li><a href="">Tất cả quần</a></li>
                                 <li><a href="">Quần short</a></li>

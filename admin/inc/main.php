@@ -1,47 +1,40 @@
 <?php //require_once '../config/config.php'; ?>
-<section class="menu">
-    <div class="dashboard">
-        <a href="">Dashboard</a>
-    </div>
-</section>
-    <div class="content">
-        <section class="slide-bar-menu">
-            <ul class="menu-list">
-                <li><a href="./Slider.html">Quản lý slider</a></li>
-                <li><a href="./cate.html">Quản lý danh mục</a></li>
-                <li><a href="./product.html">Quản lý sản phẩm</a></li>
-                <li><a href="./order.html">Quản lý đơn hàng</a></li>
-                <li><a href="./user.html">Quản lý người dùng</a></li>
-            </ul>
-        </section>
-        <section class="content-table">
-            <div class="notice">
-                This is a notice
-            </div>
-            <div class="name-action"> 
-                <p>Slider list</p>
-        <a href=""><button class="add">Thêm slide</button></a> 
-        </div>
+
+
+    
+
+    <section class="main">
+        <h2>Tên danh mục</h2>
+        <a href="">Thêm mới</a>
+        <div class="content">
             <table>
-                <tr>
-                    <td>STT</td>
-                    <td>Tên Slider</td>
-                    <td>Slider image</td>
-                    <td>STT </td>
-                    <td>Action</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>     
-                        <div class="action-button">
-                        <button class="edit-button">Chỉnh sửa</button>
-                        <button class="delete-button">Xóa</button>
-                    </div>
-                </td>
-                </tr>
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Hình ảnh</th>
+                        <th>Mô tả</th>
+                        <th>Hành động</th>
+                        <th>Created At</th>
+                        <th>Updated At</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="action-button">
+                            <a href="">Chỉnh sửa</a>
+                            <a href="">Xóa</a>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
             </table>
-        </section>
-    </div>
+        </div>
+    </section>
