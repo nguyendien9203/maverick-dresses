@@ -7,7 +7,7 @@
     <div class="content">
         <section class="slide-bar-menu">
             <ul class="menu-list">
-                <li><a href="./Slider.html">Quản lý sldier</a></li>
+                <li><a href="./Slider.html">Quản lý slider</a></li>
                 <li><a href="./cate.html">Quản lý danh mục</a></li>
                 <li><a href="./product.html">Quản lý sản phẩm</a></li>
                 <li><a href="./order.html">Quản lý đơn hàng</a></li>
@@ -36,9 +36,9 @@
                     <td></td>
                     <td></td>
                     <td>     
-                        <div class="action.button">
-                        <button class="action"> Chỉnh sửa</button>
-                        <button class="action"> xóa</button>
+                        <div class="action-button">
+                        <button class="edit-button">Chỉnh sửa</button>
+                        <button class="delete-button">Xóa</button>
                     </div>
                 </td>
                 </tr>

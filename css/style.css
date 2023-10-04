@@ -144,10 +144,10 @@ a{
     align-items: center;
 }
 
-.user-logo a i{
+.user-logo a i, .cart-logo a i, .logout-logo a i{
     display: inline-block;
     padding: 7px;
-    width: 50px;
+    width: 40px;
     text-align: center;
     text-decoration: none;
     color: black;
@@ -156,6 +156,9 @@ a{
     margin-left: 20px;
 }
 
+.user-logo a i:hover, .cart-logo a i:hover, .logout-logo a i:hover{
+    color: var(--primary-color);
+}
 
 
 .login-button a{
@@ -194,6 +197,7 @@ a{
     color: white;
     
 }
+
 
 
 /* css main */
@@ -734,8 +738,7 @@ width: 100%;
 }
 .category-left ul li>a{
     color: black;
-    font-size: 25px;
-    font-weight: bold;
+    font-weight: 600;
 }
 .category-left-li ul{
     display: none;
@@ -745,8 +748,8 @@ width: 100%;
     display: block;
 }
 .category-left ul li ul li a{
-    font-size: 20px;
-    font-weight: lighter;
+    font-size: 12px;
+    font-weight: 500;
 }
 .menu-product a{
     font-size: 25px !important;
