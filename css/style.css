@@ -144,6 +144,23 @@ a{
     align-items: center;
 }
 
+.user-logo a i, .cart-logo a i, .logout-logo a i{
+    display: inline-block;
+    padding: 7px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+}
+
+.user-logo a i:hover, .cart-logo a i:hover, .logout-logo a i:hover{
+    color: var(--primary-color);
+}
+
+
 .login-button a{
     display: inline-block;
     padding: 7px;
@@ -183,6 +200,7 @@ a{
 
 
 
+/* css main */
 #wp_product {
     padding-top: 20px;
     padding-bottom: 78px;
@@ -615,6 +633,8 @@ footer {
     color: var(--primary-color);
     font-size: 15px;
 }
+
+/* css product */
 .category {
     padding: 100px 0 0;
 }
@@ -681,8 +701,8 @@ width: 100%;
 }
 
 .gallery img {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     margin: 0px;
 }
 
@@ -697,15 +717,13 @@ width: 100%;
 }
 
 .name-product-category {
-    font-weight: bold;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    font-weight: 600;
+    padding: 20px 0;
 }
 
 .price{
-    font-weight: bold;
+    font-weight: 600;
     color: #ff5733;
-    font-size: 18px;
 }
 .category-left {
     padding: 10px 0 10px 20px;
@@ -718,8 +736,7 @@ width: 100%;
 }
 .category-left ul li>a{
     color: black;
-    font-size: 25px;
-    font-weight: bold;
+    font-weight: 600;
 }
 .category-left-li ul{
     display: none;
@@ -729,8 +746,8 @@ width: 100%;
     display: block;
 }
 .category-left ul li ul li a{
-    font-size: 20px;
-    font-weight: lighter;
+    font-size: 14px;
+    font-weight: 400;
 }
 .menu-product a{
     font-size: 25px !important;
@@ -744,9 +761,11 @@ width: 100%;
     justify-content: center;
 }
 .category-right-bottom-item button {
+    width: 40px;
+    height: 40px;
     padding: 10px 15px;  
     margin: 10px;
-    background-color:#777 ;
+    background-color:#cbcbcb ;
     border: none;
 }
 .content-top{
@@ -813,3 +832,4 @@ width: 100%;
     font-weight: bold;
     color: #333;
 }
+

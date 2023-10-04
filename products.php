@@ -1,34 +1,34 @@
-<?php require_once("./inc/header.php"); ?>
+<?php require_once("./inc/headerLogedin.php"); ?>
 
 <section class="category">
         <div class="container">
             <div class="row">
                     <div class="category-left">
                     <ul> 
-                        <li class="category-left-li menu-product"> <a href="#">Danh Muc</a></li>
-                        <li class="category-left-li  " > <a href="">Áo</a>
+                        <li class="category-left-li menu-product"> <a href="#">DANH MỤC</a></li>
+                        <li class="category-left-li"> <a href="#">ÁO</a>
                             <ul>
                                 <li><a href="">Tất cả áo</a></li>
                                 <li><a href="">Áo sơ mi</a></li>
                                 <li><a href="">Áo thun</a></li>
                             </ul>
                         </li>
-                        <li class="category-left-li"> <a href="#">Chân Váy</a></li>
-                        <li class="category-left-li"> <a href="#">Logo</a></li>
-                        <li class="category-left-li"> <a href="#">Váy</a></li>
-                        <li class="category-left-li " > <a href="#">Quần</a>
+                        <li class="category-left-li"> <a href="#">VÁY</a></li>
+                        <li class="category-left-li"> <a href="#">LOGO</a></li>
+                        <li class="category-left-li"> <a href="#">FROCKS</a></li>
+                        <li class="category-left-li"> <a href="#">QUẦN</a>
                             <ul>
                                 <li><a href="">Tất cả quần</a></li>
                                 <li><a href="">Quần short</a></li>
                                 <li><a href="">Quần thể thao</a></li>
                             </ul>
                         </li>
-                        <li class="category-left-li"> <a href="#">Phụ Kiện</a>
+                        <li class="category-left-li"> <a href="#">PHỤ KIỆN</a>
                             <ul>
                                 <li><a href="">Tất cả phụ kiện</a></li>
                                 <li><a href="">Thắt lưng</a></li>
                                 <li><a href="">Cà vạt</a></li>
-                                <li><a href="">tất</a></li>
+                                <li><a href="">Tất</a></li>
                             </ul>
                         </li>
                     </ul> 
