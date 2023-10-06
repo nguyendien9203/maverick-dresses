@@ -420,3 +420,92 @@ a{
             margin-bottom: 10px;
             padding: 0px;
         }
+        #box {
+            margin-top: 100px;
+            width: 90%;
+            border: 1px solid white;
+            display: flex;
+
+          }
+          #box h1 {
+            font-size: 25px;
+            margin-bottom: 10px;
+          }
+          #box h2{
+            margin-bottom: 10px;
+          }
+          div > div {
+            border: 1px solid white;
+          }
+          #shortimages {
+            height: 30%;
+            flex-basis: 20%;
+            display: grid;
+            grid-template-columns: 40% 40%;
+            gap: 10px;
+            margin: 5px;
+            padding: 5px; 
+          }
+          #shortimages img {
+            border: 1px solid black;
+          }
+          #productimage {
+            flex-basis: 50%;
+            margin: 5px;
+          }
+          #productimage img{   
+            border: 1px solid black;
+          }
+          #cartbutton {
+            flex-basis: 30%;
+          }
+          img {
+            width: 100%;
+          }
+          #cartbutton {
+            margin: 5px 30px;
+          }
+          #imgg {
+            height: 50px;
+            display: grid;
+            grid-template-columns: 20% 20% 20%;
+            grid-template-rows: 100%;
+            gap: 5px;
+            margin: 15px;
+          }
+          #imgg button {
+            margin-right: 15px;
+          }
+      
+          #sizesel > button {
+            margin: 10px;
+            width: 60px;
+            border: 1px solid grey; 
+            height: 30px
+          }
+          #quantity h4{
+            margin-top: 10px;
+          }
+          #quantity input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 10px;
+          }
+          #addtocart > button {
+            width: 100%;
+            background-color: black;
+            height: 50px;
+            color: white;
+            font-size: 20px;
+            margin: 10px 0;
+            border: 1px solid white;
+          }
+        
+          #description {
+            width: 40%;
+            margin: 50px 100px;
+          }
+    
+       
